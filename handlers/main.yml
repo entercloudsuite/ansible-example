@@ -1,0 +1,19 @@
+---
+# handlers file for cowsay
+
+- name: overwrite nginx index file
+  shell: /usr/games/cowsay -f openstack 'It works!' > {{ nginx_index_file }}
+
+- name: add html tags <html><body><pre> to the nginx index file
+  lineinfile:
+    state: present
+    dest: "{{ nginx_index_file }}"
+    insertbefore: BOF
+    line: <html><body><pre>
+
+- name: add html tags </pre></body></html> to the nginx index file
+  lineinfile:
+    state: present
+    dest: "{{ nginx_index_file }}"
+    insertafter: EOF
+    line: </pre></body></html>

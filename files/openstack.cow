@@ -1,0 +1,18 @@
+# openstack
+#
+$the_cow = <<EOC;
+   $thoughts
+    $thoughts
+                        
+       .XXXXXXXXXXXXXXZ              
+      .XXXXXXXXXXXXXXXXX
+      XXXX          XXXX 
+      ....          ....
+      XXXX          XXXX
+      XXXX          XXXX
+      ....          ....
+      XXXX          XXXX
+      .XXXXXXXXXXXXXXXXX
+       .XXXXXXXXXXXXXXZ
+       
+EOC

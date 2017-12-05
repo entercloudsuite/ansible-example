@@ -1,0 +1,14 @@
+---
+# tasks file for cowsay
+
+- name: install cowsay
+  package:
+    name: cowsay
+    state: present
+
+- name: copy openstack cowfile
+  copy: src=openstack.cow dest=/usr/share/cowsay/cows/openstack.cow
+  notify:
+    - overwrite nginx index file
+    - add html tags <html><body><pre> to the nginx index file
+    - add html tags </pre></body></html> to the nginx index file
