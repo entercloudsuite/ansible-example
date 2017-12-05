@@ -7,11 +7,6 @@
     molecule_scenario_directory: "{{ lookup('env','MOLECULE_SCENARIO_DIRECTORY') }}"
     molecule_yml: "{{ lookup('file', molecule_file) | from_yaml }}"
   tasks:
-    - name: Build an Ansible compatible image
-      docker_image:
-        path: "{{ molecule_scenario_directory }}"
-        name: molecule_local/ubuntu
-
     - name: Create molecule instance(s)
       docker_container:
         name: "{{ item.name }}"
