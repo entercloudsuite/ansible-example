@@ -1,14 +1,18 @@
 ---
 galaxy_info:
   author: Federico Minzoni
-  description: Infrastructure As Code
+  description: Example playbook to use as an implementation reference.
   company: Enter srl
-
-  license: license Apache
-
+  license: MIT
   min_ansible_version: 2.2
-
-  galaxy_tags: []
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+  galaxy_tags:
+    - molecule
+    - example
+    - cowsay
 
 dependencies:
   - ansible-role-nginx
