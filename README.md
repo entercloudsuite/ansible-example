@@ -30,6 +30,8 @@ Run with default vars:
 
 Tests are performed using [Molecule](http://molecule.readthedocs.org/en/latest/).
 
+Install Molecule or use `docker-compose run --rm molecule` to run a local Docker container, based on the [enterclousuite/molecule](https://hub.docker.com/r/fminzoni/molecule/) project, from where you can use `molecule`.
+
 1. Run `molecule create` to start the target Docker container on your local engine.  
 2. Use `molecule login` to log in to the running container.  
 3. Edit the role files.  
