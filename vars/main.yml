@@ -1,4 +1,2 @@
 ---
 # vars file for cowsay
-
-nginx_index_file: /var/www/html/index.nginx-debian.html
