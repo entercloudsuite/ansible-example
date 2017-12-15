@@ -19,8 +19,8 @@ notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
 
 before_deploy:
-  - ls -la /home/travis/build/entercloudsuite/ansible-example/molecule/default/.molecule/roles/geerlingguy.nginx
   - pip install ansible==2.4
+  - ansible-galaxy install -p /home/travis/build/entercloudsuite/ansible-example/molecule/default/.molecule/roles geerlingguy.nginx
   - wget https://releases.hashicorp.com/packer/1.1.3/packer_1.1.3_linux_amd64.zip
   - unzip packer_1.1.3_linux_amd64.zip
 
