@@ -26,4 +26,4 @@ before_deploy:
 deploy:
   skip_cleanup: true
   provider: script
-  script: ./packer validate packer.json
+  script: ./packer build packer.json
