@@ -24,5 +24,6 @@ before_deploy:
   - unzip packer_1.1.3_linux_amd64.zip
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: ./packer validate packer.json
