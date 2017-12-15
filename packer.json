@@ -17,7 +17,7 @@
 		{
 			"type": "shell",
 			"inline": [
-				"sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y python2.7 python && sudo apt-get clean"
+				"sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y python2.7 python"
 			]
         },
         {

@@ -3,4 +3,5 @@
 - name: run the main roles
   hosts: all
   roles:
+    - { role: geerlingguy.nginx }
     - { role: ansible-example }
