@@ -1,10 +1,6 @@
 ---
 
 - name: run the main roles
-  become: true
-  become_method: sudo
-  become_user: root
   hosts: all
   roles:
-    - { role: geerlingguy.nginx }
     - { role: ansible-example }
