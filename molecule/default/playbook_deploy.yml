@@ -1,13 +1,5 @@
 ---
 
-- name: run the dependent role
-  become: true
-  become_method: sudo
-  become_user: root
-  hosts: all
-  roles:
-    - { role: geerlingguy.nginx }
-
 - name: run the main role
   become: true
   become_method: sudo

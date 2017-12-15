@@ -1,6 +1,6 @@
 ---
 
-- name: run the main roles
+- name: run the main role
   hosts: all
   roles:
     - { role: ansible-example }
