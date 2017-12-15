@@ -7,7 +7,7 @@
 		"password": "{{user `ecs_password`}}",
 		"region": "{{user `ecs_region`}}",
 		"image_name": "{{user `image_name`}}",
-		"source_image": "6a1e4c2b-d663-492a-a828-205f4b28d9e0", // Ubuntu 16.04 UUID
+		"source_image": "6a1e4c2b-d663-492a-a828-205f4b28d9e0",
 		"ssh_username": "ubuntu",
 		"flavor": "{{user `ecs_flavor`}}",
 		"networks": [ "{{user `ecs_network`}}" ],
