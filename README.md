@@ -1,9 +1,9 @@
 Ansible Role: Example 
 ======================================
 
-[![Build Status](https://travis-ci.org/entercloudsuite/ansible-example.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-example)  
-[![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.example-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/example)  
+[![Build Status](https://travis-ci.org/entercloudsuite/ansible-example.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-example)
 [![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg?style=flat-square)](https://hub.docker.com/r/fminzoni/ecs-example/)
+[![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.example-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/example)  
 
 Example playbook to use as an implementation reference.
 
