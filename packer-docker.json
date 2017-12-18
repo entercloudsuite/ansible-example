@@ -23,7 +23,7 @@
         }
 	],
 	"post-processors": [
-		{
+		[{
 			"type": "docker-tag",
 			"repository": "fminzoni/ecs-example",
 			"tag": "0.1"
@@ -33,7 +33,7 @@
 			"login": "true",
 			"login_username": "{{user `docker_username`}}",
 			"login_password": "{{user `docker_password`}}"
-		}
+		}]
 	],
     "variables": {
         "docker_username":  "{{env `DOCKER_USERNAME`}}",
