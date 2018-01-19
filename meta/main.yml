@@ -1,10 +1,10 @@
 ---
 galaxy_info:
   author: Federico Minzoni
-  description: Playbook for Prometheus
+  description: Example playbook to use as an implementation reference
   company: Enter srl
   license: MIT
-  min_ansible_version: 2.4
+  min_ansible_version: 2.2
   platforms:
     - name: Ubuntu
       versions:
